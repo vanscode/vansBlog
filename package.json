@@ -9,6 +9,7 @@
     "vuepress": "^1.7.1"
   },
   "scripts": {
+    "deploy": "bash deploy.sh",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   }

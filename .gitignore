@@ -1,6 +1,7 @@
 target/
 !.mvn/wrapper/maven-wrapper.jar
 node_modules
+docs/.vuepress/dist
 ## STS ##
 .apt_generated
 .classpath
