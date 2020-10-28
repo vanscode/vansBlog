@@ -1,5 +1,5 @@
-># LockSupport
->> LockSupport是什么？
+# LockSupport
+> LockSupport是什么？
 
 ```
 模块  java.base
