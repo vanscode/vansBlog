@@ -104,7 +104,7 @@ extends Object
    >总结：线程先要获取并持有锁，必须在锁块（synchronized或lock）中
    >            必须要先等待后唤醒，线程才能够被唤醒
 
-3. LockSupport类可以阻塞当前线程以及唤醒指定被阻塞的线程
+3. LockSupport类可以阻塞当前线程以及唤醒指定被阻塞的线 程
 
    LockSupport通过pack()和unpack()方法来实现阻塞和唤醒线程的操作
 
