@@ -30,9 +30,7 @@ CLH队列：是一个单向链表，AQS中的队列是CLH变体的虚拟双向�
 
 > AQS使用一个volatile的int类型的成员变量来表示同步状态，通过内置的FIFO队列来完成资源获取的排队工作将每条要去抢占资源的线程封装成一个 Node节点来实现锁的分配，通过CAS完成对State值得修改
 
-AQS的内部架构
-
-![aqs](../../../images/aqs.png)
+AQS的内部架构![aqs](../../../.vuepress/public/aqs.png)
 
 AQS的int变量：
 
@@ -207,9 +205,9 @@ static final class Node {
     }
 ```
 
-AQS同步队列的基本结构
+AQS同步队列的基本结构![AQS同步队列的基本结构](../../../.vuepress/public/AQS同步队列的基本结构.png)
 
-![AQS同步队列的基本结构](../../../images/AQS同步队列的基本结构.png)
+
 
 ## 从我们的ReentrantLock开始解读AQS
 
